@@ -1,0 +1,96 @@
+html, body {
+	height: 100%;
+	overflow: hidden;
+}
+
+body {
+	margin:0;
+	background: linear-gradient(45deg, #b92b27, #1565C0);
+	background-size: 300% 300%;
+	animation: gradient 10s ease infinite;
+}
+
+@keyframes gradient {
+	0%{
+		background-position: 0% 50%
+	}
+	50%{
+		background-position: 100% 100%
+	}
+	100%{
+		background-position: 0 50%
+	}
+}
+
+/*--- title ---*/
+#title {
+	margin-top: 100px;
+	background: linear-gradient(90deg, #232526 35%, #414345);
+	background-position: 0% 50%;
+	background-size: 200% 200%;
+	/*animation: gradient 5s ease infinite;*/
+	opacity: 0.75;
+	transition: 1s;
+}
+
+#title_text {
+	font-family: arial;
+	font-size: 50px;
+	text-transform: uppercase;
+  	background: linear-gradient(45deg, #B79891, #94716B);
+  	-webkit-background-clip: text;
+  	-webkit-text-fill-color: transparent;
+ 	color: #0B2349;
+  	display: table;
+  	animation: gradient 5s ease infinite;
+}
+/*--- title ---*/
+
+/*--- main ---*/
+#main {
+	align-self: center;
+	text-align: center;
+	margin: 0 auto;
+	width: 60%; 
+	height:400px;
+	border-radius: 20px;
+	background-color: black;
+	opacity: 0.5;
+	transition: 1s;
+}
+#main_title{
+	font-family: arial;
+	font-size: 30px;
+	color:white;
+	position: relative;
+	top:20px;
+}
+#main_text_title{
+	font-family: arial;
+	font-size: 25px;
+	color:white;
+	position: relative;
+	top:10px;
+	right:200px;
+}
+#main_text{
+	font-family: arial;
+	font-size: 30px;
+	color:white;
+	position: relative;
+	top:10px;
+}
+#c_text_title{
+	font-family: arial;
+	font-size: 25px;
+	color:white;
+	position: relative;
+	right:200px;
+}
+#c_text{
+	font-family: arial;
+	font-size: 20px;
+	color:white;
+	position: relative;
+}
+/*--- main ---*/
